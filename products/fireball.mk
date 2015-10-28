@@ -4,13 +4,13 @@ $(call inherit-product, vendor/aicp/configs/common.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/aicp/configs/nfc_enhanced.mk)
 
-# Inherit AOSP device configuration for d801
+# Inherit AOSP device configuration for fireball
 $(call inherit-product, device/htc/fireball/full_fireball.mk)
 
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := fireball
-PRODUCT_NAME := full_fireball
+PRODUCT_NAME := aicp_fireball
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := Incredible 4G LTE
 PRODUCT_MANUFACTURER := HTC
