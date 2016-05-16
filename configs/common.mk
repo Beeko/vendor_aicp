@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     Eleven \
     Development \
     LockClock \
-    AudioFX \
     PhotoPhase \
     CMFileManager \
     OmniSwitch \
